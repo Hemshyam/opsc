@@ -21,12 +21,12 @@ const Home = () => {
                 className="homegreet2 homegreet"
                 text="OPEN SOURCE PROGRAMMING CLUB"
             />
-            <div className='img'>
+            {/* <div className='img'>
                 <Image src={Image1} alt='hello' height={50} />
                 <Image src={Image2} alt='hello' height={50} />
                 <Image src={Image3} alt='hello' height={50} />
                 <Image src={Image4} alt='hello' height={50} />
-            </div>
+            </div> */}
             <motion.div initial={{ opacity: 0, backdropFilter: "blur(10px)", scale: 0.9 }} whileInView={{ opacity: 1, backdropFilter: "blur(0)", scale: 1 }} className='goal'>"Empowering innovation through open-source software, building impactful projects that serve society, and sharing knowledge for a better tomorrow."</motion.div>
 
             <div className='hometickers'>
