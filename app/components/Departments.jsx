@@ -12,13 +12,7 @@ const Departments = () => {
 
   return (
     <section id='departments'>
-
-      <span className='grad1'></span>
-      <span className='grad2'></span>
-      <span className='grad3'></span>
-      <span className='grad4'></span>
-
-      <span className='sectionhead '>Our Departments</span>
+      <span className='sectionhead '>Our departments</span>
 
       <div className='depls text-black h-48 text-wrap'>
         {depar.map(dep => (

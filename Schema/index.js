@@ -3,56 +3,58 @@ import { BotMessageSquare, CalendarFold, CodeXml, Handshake, PanelsTopLeft, Rss,
 export const depar = [
     {
         "id": 1,
-        "name": "Web Development",
-        "icon": <PanelsTopLeft />,
+        "name": "WEB DEVELOPMENT",
+        "icon": <PanelsTopLeft color="rgb(132, 237, 255)" />,
         "description": "Focuses on coding, user interfaces, and responsive design."
+
     },
     {
         "id": 2,
-        "name": "Machine Learning",
-        "icon": <CodeXml />,
+        "name": "MACHINE LEARNING",
+        "icon": <CodeXml color="rgb(132, 237, 255)" />,
         "description": "Involves algorithms, data analysis, and artificial intelligence."
     },
     {
         "id": 3,
-        "name": "Cyber Security",
-        "icon": <ShieldEllipsis />,
+        "name": "CYBER SECUIRTY",
+        "icon": <ShieldEllipsis color="rgb(132, 237, 255)" />,
         "description": "Centers on threat prevention, data protection, and network security."
     },
     {
         "id": 4,
-        "name": "Social Media and Outreach",
-        "icon": <Rss />,
+        "name": "SOCIAL MEDIA",
+        "icon": <Rss color="rgb(132, 237, 255)" />,
         "description": "Engages in content creation, brand awareness, and social media engagement."
+
     },
     {
         "id": 5,
-        "name": "Marketing and Public Relations",
-        "icon": <Handshake />,
+        "name": "MARKETING",
+        "icon": <Handshake color="rgb(132, 237, 255)" />,
         "description": "Deals with strategy, campaigns, and media relations."
     },
     {
         "id": 6,
-        "name": "Event Management and Operations",
-        "icon": <CalendarFold />,
+        "name": "MANAGEMENT",
+        "icon": <CalendarFold color="rgb(132, 237, 255)" />,
         "description": "Handles logistics, coordination, and execution of events."
     },
     {
         "id": 7,
-        "name": "Content and Design",
-        "icon": <Wand />,
+        "name": "CONTENT & DESIGN",
+        "icon": <Wand color="rgb(132, 237, 255)" />,
         "description": "Focuses on visuals, creativity, and brand identity."
     },
     {
         "id": 8,
-        "name": "Finance and Sponsorship",
-        "icon": <PanelsTopLeft />,
+        "name": "FINANCE",
+        "icon": <PanelsTopLeft color="rgb(132, 237, 255)" />,
         "description": "Manages budgeting, fundraising, and financial planning."
     },
     {
         "id": 9,
-        "name": "Robotics and IOT",
-        "icon": <BotMessageSquare />,
+        "name": "ROBOTICS & IOT",
+        "icon": <BotMessageSquare color="rgb(132, 237, 255)" />,
         "description": "Involves automation, sensors, and smart devices."
     }
 ]

@@ -25,17 +25,6 @@ const About = () => {
                 )}
 
             </div>
-            <div className='followbox'>
-                <span className="sectionhead foll" style={{ fontSize: 24 }}>Follow us</span>
-                <div className='aboutlogos'>
-                    <Image src={YTLogo} width={50} height={50} />
-                    <Image src={LinkedInLogo} width={50} height={50} />
-                    <Image src={WhatsappLogo} width={50} height={50} />
-                    <Image src={InstagramLogo} width={50} height={50} />
-                    <Image src={DiscordLogo} width={50} height={50} />
-                </div>
-
-            </div>
             <Particles
                 className="particlebg z-50"
                 quantity={100}
