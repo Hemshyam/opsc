@@ -266,7 +266,7 @@ body {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 36px;
   color: white;
   transition: 200ms ease;
   cursor: default;
@@ -386,6 +386,16 @@ body {
   }
 }
 
+@media(max-width:500px) {
+  .homegreet1 {
+    font-size: 26px;
+  }
+
+  .homegreet2 {
+    font-size: 16px;
+  }
+}
+
 .followbox {
   border: 1px solid #168aad;
   padding: 20px;
@@ -403,6 +413,7 @@ body {
   padding: 25px;
   background-color: #00c3ff15;
   border-top: 1px solid rgba(255, 255, 255, 0.205);
+  width: 100%;
 }
 
 .footbox {
@@ -547,4 +558,19 @@ body {
   opacity: 1;
   position: relative;
   /* transform: translateX(100px); */
+}
+
+@media(max-width:800px) {
+  .loadsrc {
+    font-size: 1.5rem;
+  }
+
+  @keyframes stroke {
+    100% {
+      font-size: 1.5rem;
+      color: black;
+      -webkit-text-stroke-width: 2.5px;
+      -webkit-text-stroke-color: transparent;
+    }
+  }
 }

@@ -3,7 +3,7 @@ import './navbar.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AnimatedShinyText from "@/components/magicui/animated-shiny-text";
-import Logo from '../public/open_source_logo_v2.2-removebg-preview.png'
+import Logo from '../public/OSPC_logo.jpeg-removebg-preview.png'
 
 const navbar = () => {
     return (
@@ -17,6 +17,7 @@ const navbar = () => {
                     <li><Link href="#about">About</Link></li>
                     <li><Link href="#departments">Departments</Link></li>
                     <li><Link href="#projects">Projects</Link></li>
+
                 </ul>
 
 

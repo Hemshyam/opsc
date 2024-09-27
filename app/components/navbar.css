@@ -40,3 +40,10 @@ ul li:hover {
     color: rgba(255, 255, 255, 0.479);
     transition: all 200ms ease;
 }
+
+@media(max-width:800px) {
+    .navbar {
+        padding: 15px;
+        scale: 0.85;
+    }
+}
